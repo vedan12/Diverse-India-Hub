@@ -94,11 +94,11 @@ button{
     transition: all 0.3s ease-out;
     text-shadow: none;
 }
-.log,.backToTop{
+.log{
     background-color: white;
     width: 6rem;
 }
-.log:hover,.backToTop:hover{
+.log:hover{
     background-color: #ffffff;
     font-size: 1.1rem;
     font-weight: bolder;
@@ -107,7 +107,16 @@ button{
     box-shadow: none;
     transition: all 0.3s ease-out;
 }
-
+.title{
+    width: 100%;
+    height: 3.5rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    border-radius: 15px;
+    box-shadow: 0 0 8px #0f0e0e;
+    color: rgb(247, 249, 248);
+    text-shadow:0 0 10px rgb(5, 0, 0);
+}
 /** box 4 **/
 .shop-section{
     display: flex;
@@ -127,8 +136,12 @@ button{
 .box-image{
     background-size: cover;
     background-repeat: no-repeat;
-    box-shadow: 0 0 10px black;
     border-radius: 8px;
+}
+.box-image:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-out;
+    box-shadow: 0 0 8px black;
 }
 .box-content{
     margin-left: 1rem;
@@ -173,7 +186,7 @@ li{
     border-radius: 20px;
     padding: 7px;
     font-size: 0.9rem;
-    background-color: white;
+    background-color: greenyellow;
     cursor: pointer;
     position: absolute;
     bottom: 0;
@@ -188,8 +201,8 @@ li{
     }
 }
 button:hover{
-    box-shadow: 0px 0px 10px red;
-    text-shadow: 0 0 20px black;
+    background-color: rgb(37, 239, 37);
+    box-shadow: 0 0 10px white;
 }
 button:active{
     transform: scale(0.9);
@@ -197,6 +210,17 @@ button:active{
 /** Footer **/
 footer{
     margin-top: 15px;
+}
+.backToTop{
+    width: 6rem;
+    height: 2.3rem;
+}
+.backToTop:hover{
+    transform: scale(1.1);
+    background-color: white;
+    transition: all 0.2s ease-out;
+    box-shadow: none;
+    text-shadow: none;
 }
 .foot-panel1{
     height: 50px;
@@ -207,14 +231,6 @@ footer{
     align-items: center;
     font-size: 0.9rem;
 }
-.foot-logo{
-    background-image: url("indian-flag.jpg");
-    background-size: cover;
-    border: 1px solid black;
-    border-radius: 10px;
-    height: 60px;
-    width: 120px;
-}
 .foot-panel3{
     background-color: #0f1111;
     color: #dddddd;
@@ -224,6 +240,33 @@ footer{
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
+.formality{
+    width: 100%;
+    height: 3rem;
+    background-color: #bbdfe3;
+    font-weight: bolder;
+    justify-content: space-evenly;
+}
+ol,ul{
+    color: rgb(5, 5, 5);
+    gap: 2rem;
+    cursor: pointer;
+}
+ol .icon{
+    display: flex;
+    font-size: 1.2rem;
+}
+ol .icon:hover{
+    transform: scale(1.4);
+    align-items: center;
+}
+ol li:hover{
+    transform: scale(1.2);
+    transition: all 0.2s ease-out;
+}
+ol li:active{
+    transform: scale(0.85);
+}
 .foot-top a{
 margin-left: 15px;}
 .foot-top{
@@ -231,6 +274,18 @@ margin-left: 15px;}
     justify-content: center;
     padding-top: 25px;
     padding-bottom: 15px;
+}
+.foot-top a{
+    color: white;
+    text-decoration: none;
+}
+.foot-top a:hover{
+    text-decoration: underline rgb(251, 250, 250);
+    transform: scale(1.15);
+    transition: all 0.3s ease-out;
+}
+.foot-top a:active{
+    transform: scale(0.95);
 }
 .foot-bottom{
     display: flex;

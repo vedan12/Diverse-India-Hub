@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.main{
+    background-color: rgb(174, 174, 242);
+}
+.login-wrapper
+{
+    justify-content: center;
+    font-family: 'Martel Sans', sans-serif;
+    display: flex;
+}
+.form
+{
+    padding: 2rem;
+    border-radius: 15px;
+    color: red;
+    display: grid;
+    gap: 19px;
+}
+.input-group input {
+    font-size: 1rem;
+    color: white;
+    padding: 10px;
+}
+.register {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+.form .submit-btn {
+    width: 72px;
+    height: 29px;
+    cursor: pointer;
+}
+
+.submit-btn {
+    background-color: royalblue;
+    color: white;
+    border-radius: 7px;
+    border: none;
+}
+.register:hover input {
+    
+    background: #004dd3;
+    color: white;
+}
+.sign-in:hover input {
+    
+    background: #dd4b39;
+    color: white;
+}
