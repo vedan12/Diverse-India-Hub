@@ -6,79 +6,105 @@
     <title>Politics</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="utility.css">
-</head>
-<body>
     <style>
-        body{
-            background-color: rgba(12, 147, 147, 0.934);
+        body {
+            background-color: rgb(112, 112, 243);
+            margin: 0;
+            padding: 0;
         }
-        .box{
-                height: 25rem;
-                background-color: rgb(128, 213, 213);
+        .shop-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
         }
-        .box-image{
-                height: 15rem;
-                width: 15rem;
-            margin-right: auto;
-            margin-left: auto;
+        .box {
+            width: calc(33.33% - 20px); /* Adjust as needed */
+            margin: 10px;
+            height: 25rem;
+            background-color: rgb(162, 162, 248);
+            display: flex;
+            flex-direction: column;
+        }
+        .box-content {
+            flex: 1;
+            overflow: hidden;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+        .box-image {
+            height: 100%;
+            background-size: cover;
         }
     </style>
-    <div class="title"><div class="head flex justify-center">Most Famous Food Items</div></div>
+
+</head>
+<body>
     <div class="shop-section m-1 p-1">
         <div class="box1 box">
             <div class="box-content">
                 <div class="box-image" style="background-image: url('bjp-leader.jpg');"></div>
-                <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>      
-    </div>
+                <h2 class="m-1">BJP</h2>
+                <h4 class="m-1">Bharatiya Janata Party: One of the major political parties in India known for its ideology of Hindu nationalism.</h4>      
+            </div>
         </div>
-        <div class="box2 box"><div class="box-content"> 
-            <div class="box-image" style="background-image: url('cp-leader.jpg');"></div>   
-            <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>         
-    </div></div>
-        <div class="box3 box"><div class="box-content">           
-            <div class="box-image" style="background-image: url('aap-leader.jpg');"></div> 
-            <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>           
-    </div>
-    </div>
+        <div class="box2 box">
+            <div class="box-content"> 
+                <div class="box-image" style="background-image: url('cp-leader.jpg');"></div>   
+                <h2 class="m-1">Communist Party</h2>
+                <h4 class="m-1">Communist Party: A political party advocating socialist principles and ideology.</h4>         
+            </div>
+        </div>
+        <div class="box3 box">
+            <div class="box-content">           
+                <div class="box-image" style="background-image: url('aap-leader.jpg');"></div> 
+                <h2 class="m-1">Aam Aadmi Party</h2>
+                <h4 class="m-1">Aam Aadmi Party: A regional political party mainly active in the National Capital Region, known for its anti-corruption stance.</h4>           
+            </div>
+        </div>
         <div class="box1 box">
             <div class="box-content">
                 <div class="box-image" style="background-image: url('bsp-leader.jpg');"></div>
-                <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>      
-    </div>
+                <h2 class="m-1">Bahujan Samaj Party</h2>
+                <h4 class="m-1">Bahujan Samaj Party: A political party in India that primarily represents the interests of Scheduled Castes, Scheduled Tribes, and Other Backward Classes.</h4>      
+            </div>
         </div>
-        <div class="box2 box"><div class="box-content"> 
-            <div class="box-image" style="background-image: url('smaj-leader.jpg');"></div>   
-            <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>         
-    </div></div>
-        <div class="box3 box"><div class="box-content">           
-            <div class="box-image" style="background-image: url('trinmul-leader.jpg');"></div> 
-            <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>           
-    </div>
-    </div>
+        <div class="box2 box">
+            <div class="box-content"> 
+                <div class="box-image" style="background-image: url('smaj-leader.jpg');"></div>   
+                <h2 class="m-1">Samajwadi Party</h2>
+                <h4 class="m-1">Samajwadi Party: A regional political party in Uttar Pradesh, known for its socialist and secular policies.</h4>         
+            </div>
+        </div>
+        <div class="box3 box">
+            <div class="box-content">           
+                <div class="box-image" style="background-image: url('trinmul-leader.jpg');"></div> 
+                <h2 class="m-1">Trinamool Congress</h2>
+                <h4 class="m-1">Trinamool Congress: A political party primarily active in the state of West Bengal, known for its regionalism and emphasis on Bengali identity.</h4>           
+            </div>
+        </div>
         <div class="box1 box">
             <div class="box-content">
                 <div class="box-image" style="background-image: url('manse-leader.jpg');"></div>
-                <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>      
-    </div>
+                <h2 class="m-1">Maharashtra Navnirman Sena</h2>
+                <h4 class="m-1">Maharashtra Navnirman Sena: A regional political party in Maharashtra, known for its Marathi nationalist ideology.</h4>      
+            </div>
         </div>
-        <div class="box2 box"><div class="box-content"> 
-            <div class="box-image" style="background-image: url('shivsena-leader.jpg');"></div>   
-            <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>         
-    </div></div>
-        <div class="box3 box"><div class="box-content">           
-            <div class="box-image" style="background-image: url('rastrawadi-leader.jpeg');"></div> 
-            <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>           
-    </div>
-    </div>
+        <div class="box2 box">
+            <div class="box-content"> 
+                <div class="box-image" style="background-image: url('shivsena-leader.jpg');"></div>   
+                <h2 class="m-1">Shiv Sena</h2>
+                <h4 class="m-1">Shiv Sena: A political party primarily active in Maharashtra, known for its pro-Hindutva stance and advocacy for Marathi interests.</h4>         
+            </div>
+        </div>
+        <div class="box3 box">
+            <div class="box-content">           
+                <div class="box-image" style="background-image: url('rastrawadi-leader.jpeg');"></div> 
+                <h2 class="m-1">Rashtriya Janata Dal</h2>
+                <h4 class="m-1">Rashtriya Janata Dal: A political party primarily active in the state of Bihar, known for its advocacy of social justice and backward caste empowerment.</h4>           
+            </div>
+        </div>
+        <!-- Add more boxes here as needed -->
     </div>
 </body>
 </html>

@@ -6,83 +6,108 @@
     <title>Costumes</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="utility.css">
-</head>
-<body>
     <style>
-        body{
+        body {
             background-color: rgb(112, 112, 243);
+            margin: 0;
+            padding: 0;
         }
-        .box{
-                height: 25rem;
-                background-color: rgb(162, 162, 248);
+        .shop-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
         }
-        .title{
-            background-color: rgb(98, 98, 251);
+        .box {
+            width: calc(33.33% - 20px); 
+            margin: 10px;
+            height: 25rem;
+            background-color: rgb(162, 162, 248);
+            display: flex;
+            flex-direction: column;
         }
-        .box-image{
-                height: 15rem;
-                width: 15rem;
-            margin-right: auto;
-            margin-left: auto;
+        .box-content {
+            flex: 1;
+            overflow: hidden;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+        .box-image {
+            height: 100%;
+            background-size: cover;
         }
     </style>
-    <div class="title"><div class="head flex justify-center">Traditional Costumes of India</div></div>
+</head>
+<body>
     <div class="shop-section m-1 p-1">
-        <div class="box1 box">
+        <div class="box">
             <div class="box-content">
                 <div class="box-image" style="background-image: url('jammu-costume.jpg');"></div>
-                <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>      
-    </div>
+                <h2 class="m-1">State: Jammu & Kashmir</h2>
+                <h4 class="m-1">Jammu & Kashmir's traditional attire is characterized by the Phiran, a woolen gown worn by both men and women.</h4>
+            </div>
         </div>
-        <div class="box2 box"><div class="box-content"> 
-            <div class="box-image" style="background-image: url('goa-costume.png');"></div>   
-            <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>         
-</div></div>
-        <div class="box3 box"><div class="box-content">           
-            <div class="box-image" style="background-image: url('himachal-pradesh-costume.jpg');"></div> 
-            <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>           
-</div>
-</div>
-        <div class="box1 box">
+        <!-- Repeat similar structure for other states -->
+        <div class="box">
             <div class="box-content">
-                <div class="box-image" style="background-image: url('gujrat-costume.jpg');"></div>
-                <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>      
-    </div>
+                <div class="box-image" style="background-image: url('goa-costume.png');"></div>
+                <h2 class="m-1">State: Goa</h2>
+                <h4 class="m-1">Goa's traditional attire is influenced by Portuguese and Indian cultures. Women often wear the Kunbi saree or the Pano Bhaju.</h4>
+            </div>
         </div>
-        <div class="box2 box"><div class="box-content"> 
-            <div class="box-image" style="background-image: url('mah-costume.jpg');"></div>   
-            <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>         
-</div></div>
-        <div class="box3 box"><div class="box-content">           
-            <div class="box-image" style="background-image: url('punjab-costume.jpg');"></div> 
-            <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>           
-</div>
-</div>
-        <div class="box1 box">
+        <div class="box">
             <div class="box-content">
-                <div class="box-image" style="background-image: url('tamil-costume.jpg');"></div>
-                <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>      
-    </div>
+                <div class="box-image" style="background-image: url('himachal-pradesh-costume.jpg');"></div>
+                <h2 class="m-1">State: Himachal Pradesh</h2>
+                <h4 class="m-1">Himachal Pradesh's traditional attire includes the Kurta, Dhoti, and Churidar for men, while women wear the Salwar Kameez and Ghagra Choli.</h4>
+            </div>
         </div>
-        <div class="box2 box"><div class="box-content"> 
-            <div class="box-image" style="background-image: url('karnataka-costume.jpg');"></div>   
-            <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>         
-</div></div>
-        <div class="box3 box"><div class="box-content">           
-            <div class="box-image" style="background-image: url('telangana-costume.jpg');"></div> 
-            <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>           
+        <div class="box">
+    <div class="box-content">
+        <div class="box-image" style="background-image: url('gujrat-costume.jpg');"></div>
+        <h2 class="m-1">State: Gujarat</h2>
+        <h4 class="m-1">Gujarat's traditional attire varies across regions. Women commonly wear the colorful and embellished Chaniya Choli during festivals like Navratri. Men often opt for the traditional Dhoti Kurta or Kurta Pajama.</h4>
+    </div>
 </div>
+
+<div class="box">
+    <div class="box-content">
+        <div class="box-image" style="background-image: url('mah-costume.jpg');"></div>
+        <h2 class="m-1">State: Maharashtra</h2>
+        <h4 class="m-1">Maharashtra's traditional attire includes the Nauvari saree for women, characterized by its distinctive draping style. Men commonly wear the traditional attire called the Kurta Dhoti or Kurta Pajama.</h4>
+    </div>
 </div>
-        
+
+<div class="box">
+    <div class="box-content">
+        <div class="box-image" style="background-image: url('punjab-costume.jpg');"></div>
+        <h2 class="m-1">State: Punjab</h2>
+        <h4 class="m-1">Punjab's traditional attire for women is the vibrant and heavily embroidered Punjabi suit or Salwar Kameez. Men commonly wear the Kurta Pajama or the Punjabi Kurta with a turban.</h4></div>
 </div>
+<div class="box">
+    <div class="box-content">
+        <div class="box-image" style="background-image: url('tamil-costume.jpg');"></div>
+        <h2 class="m-1">State: Tamil Nadu</h2>
+        <h4 class="m-1">Tamil Nadu's traditional attire for women is the graceful and vibrant Kanjeevaram saree, often adorned with intricate designs and gold borders. Men commonly wear the traditional attire called the Veshti, a white or colored dhoti, paired with a shirt.</h4>
+    </div>
+</div>
+
+<div class="box">
+    <div class="box-content">
+        <div class="box-image" style="background-image: url('karnataka-costume.jpg');"></div>
+        <h2 class="m-1">State: Karnataka</h2>
+        <h4 class="m-1">Karnataka's traditional attire includes the elegant and intricate Mysore silk saree for women, known for its soft texture and rich colors. Men commonly wear the traditional attire called the Dhoti or Panche, paired with a shirt or a traditional Kurta.</h4>
+    </div>
+</div>
+
+<div class="box">
+    <div class="box-content">
+        <div class="box-image" style="background-image: url('telangana-costume.jpg');"></div>
+        <h2 class="m-1">State: Telangana</h2>
+        <h4 class="m-1">Telangana's traditional attire for women includes the graceful and vibrant Pochampally saree, known for its intricate geometric patterns. Men commonly wear the traditional attire called the Dhoti or Panche, paired with a shirt or a Kurta.</h4>
+    </div>
+</div>
+
+    </div>
 </body>
 </html>

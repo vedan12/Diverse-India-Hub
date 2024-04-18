@@ -8,77 +8,119 @@
     <link rel="stylesheet" href="utility.css">
 </head>
 <body>
-    <style>
-        body{
-            background-color: rgb(182, 154, 104);
+     <style>
+       body {
+            background-color: rgb(112, 112, 243);
+            margin: 0;
+            padding: 0;
         }
-        .box{
-                height: 25rem;
-                background-color: rgb(221, 201, 164);
+        .shop-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
         }
-        .box-image{
-                height: 15rem;
-                width: 15rem;
-            margin-right: auto;
-            margin-left: auto;
+        .box {
+            width: calc(33.33% - 20px); /* Adjust as needed */
+            margin: 10px;
+            height: 25rem;
+            background-color: rgb(162, 162, 248);
+            display: flex;
+            flex-direction: column;
+        }
+        .box-content {
+            flex: 1;
+            overflow: hidden;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+        .box-image {
+            height: 100%;
+            background-size: cover;
+        }
+
+        .box-image iframe{
+            width: 100%;
+            height: 100%;
+            border: none;
         }
     </style>
-    <div class="title"><div class="head flex justify-center">Most Famous Food Items</div></div>
     <div class="shop-section m-1 p-1">
         <div class="box1 box">
             <div class="box-content">
-                <div class="box-image" style="background-image: url('rouf-j&k.jpg');"></div>
-                <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>      
-    </div>
+                <div class="box-image">
+<iframe width="492" height="277" src="https://www.youtube.com/embed/enet0gL42u0" title="ROUF || KASHMIRI FOLK DANCE || AKASH DOGRA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <h2 class="m-1">Rouf (Jammu & Kashmir)</h2>
+                <h4 class="m-1">Traditional dance form performed by Kashmiri women</h4>
+            </div>
         </div>
-        <div class="box2 box"><div class="box-content"> 
-            <div class="box-image" style="background-image: url('fugdi-goa.jpg');"></div>   
-            <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>         
-    </div></div>
-        <div class="box3 box"><div class="box-content">           
-            <div class="box-image" style="background-image: url('nati-HP.jpg');"></div> 
-            <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>           
-    </div>
-    </div>
+        <div class="box2 box">
+            <div class="box-content"> 
+                <div class="box-image">
+<iframe width="492" height="277" src="https://www.youtube.com/embed/iJeAPquqX2s" title="Fugdi (V5) | Goan Folk Dance | Ganesh Devrambha | Vinayak Vitthal Phadte Akhadkar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>   
+                <h2 class="m-1">Fugdi (Goa)</h2>
+                <h4 class="m-1">Traditional dance form performed during festivals in Goa</h4>
+            </div>
+        </div>
+        <div class="box3 box">
+            <div class="box-content">           
+                <div class="box-image">
+                    <iframe width="492" height="277" src="https://www.youtube.com/embed/V-3U-c9Pz3U" title="Nati Sirmour Waliye | चम्बा नाटी | Latest Pahari Song 2018 | AMAZING TOUR NATTI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div> 
+                <h2 class="m-1">Nati (Himachal Pradesh)</h2>
+                <h4 class="m-1">Popular folk dance form of Himachal Pradesh</h4>
+            </div>
+        </div>
         <div class="box1 box">
             <div class="box-content">
-                <div class="box-image" style="background-image: url('garba.jpg');"></div>
-                <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>      
-    </div>
+                <div class="box-image">
+<iframe width="492" height="277" src="https://www.youtube.com/embed/qj615HcWaSg" title="Gujarati Folk dance (Garba) - Diwali 2023 | Sunraysia Indian Association" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                </div>
+                <h2 class="m-1">Garba (Gujarat)</h2>
+                <h4 class="m-1">Folk dance of Gujarat celebrated during Navratri</h4>
+            </div>
         </div>
-        <div class="box2 box"><div class="box-content"> 
-            <div class="box-image" style="background-image: url('lavani.jpg');"></div>   
-            <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>         
-    </div></div>
-        <div class="box3 box"><div class="box-content">           
-            <div class="box-image" style="background-image: url('bhangara.jpg');"></div> 
-            <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>           
-    </div>
-    </div>
+        <div class="box2 box">
+            <div class="box-content"> 
+                <div class="box-image">
+<iframe width="492" height="277" src="https://www.youtube.com/embed/DowhhfP11UU" title="08 Lavani   Maharashtra" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                </div>   
+                <h2 class="m-1">Lavani (Maharashtra)</h2>
+                <h4 class="m-1">Traditional dance form from Maharashtra with a rich history</h4>
+            </div>
+        </div>
+        <div class="box3 box">
+            <div class="box-content">           
+                <div class="box-image">
+<iframe width="492" height="277" src="https://www.youtube.com/embed/vD-LFksC1Nc" title="Bhangra Empire @ Warrior Bhangra 2014" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                </div> 
+                <h2 class="m-1">Bhangra (Punjab)</h2>
+                <h4 class="m-1">Energetic and lively folk dance from Punjab</h4>
+            </div>
+        </div>
         <div class="box1 box">
             <div class="box-content">
-                <div class="box-image" style="background-image: url('bharatnatyam.jpg');"></div>
-                <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>      
-    </div>
+                <div class="box-image">
+<iframe width="492" height="277" src="https://www.youtube.com/embed/JWhA3ldZcyY" title="Shiva Shambho: Most Watched Bharatanatyam Dance | Best of Indian Classical Dance" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                </div>
+                <h2 class="m-1">Bharatanatyam (Tamil Nadu)</h2>
+                <h4 class="m-1">Classical dance form originating from Tamil Nadu</h4>
+            </div>
         </div>
-        <div class="box2 box"><div class="box-content"> 
-            <div class="box-image" style="background-image: url('yakshagana.jpg');"></div>   
-            <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>         
-    </div></div>
-        <div class="box3 box"><div class="box-content">           
-            <div class="box-image" style="background-image: url('telangana-dance.png');"></div> 
-            <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>           
-    </div>
-    </div>
+        <div class="box2 box">
+            <div class="box-content"> 
+                <div class="box-image">
+<iframe width="492" height="277" src="https://www.youtube.com/embed/qUYWZXHL8JU" title="Yakshagana | Vidushi Mahima S Rao and Team | TEDxSJEC" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                </div>   
+                <h2 class="m-1">Yakshagana (Karnataka)</h2>
+                <h4 class="m-1">Traditional theater form from Karnataka</h4>
+            </div>
+        </div>
+        <div class="box3 box">
+            <div class="box-content">           
+                <div class="box-image">
+<iframe width="492" height="277" src="https://www.youtube.com/embed/XCPqB5A5rG8" title="FOLK DANCE OF TELANGANA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                </div> 
+                <h2 class="m-1">Telangana Dance (Telangana)</h2>
+                <h4 class="m-1">Folk dances from Telangana region</h4>
+            </div>
+        </div>
     </div>
 </body>
 </html>

@@ -6,79 +6,98 @@
     <title>Cities</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="utility.css">
-</head>
-<body>
     <style>
-        body{
-            background-color: rgb(185, 106, 119);
+        body {
+            background-color: rgb(112, 112, 243);
+            margin: 0;
+            padding: 0;
         }
-        .box{
-                height: 25rem;
-                background-color: rgb(239, 182, 192);
+        .shop-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
         }
-        .box-image{
-                height: 15rem;
-                width: 15rem;
-            margin-right: auto;
-            margin-left: auto;
+        .box {
+            width: calc(33.33% - 20px); /* Adjust as needed */
+            margin: 10px;
+            height: 25rem;
+            background-color: rgb(162, 162, 248);
+            display: flex;
+            flex-direction: column;
+        }
+        .box-content {
+            flex: 1;
+            overflow: hidden;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+        .box-image {
+            height: 100%;
+            background-size: cover;
         }
     </style>
-    <div class="title"><div class="head flex justify-center">Most Famous Food Items</div></div>
+
+</head>
+<body>
     <div class="shop-section m-1 p-1">
         <div class="box1 box">
             <div class="box-content">
                 <div class="box-image" style="background-image: url('shrinagar.jpg');"></div>
-                <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>      
-    </div>
+                <h2 class="m-1">Srinagar</h2>
+                <h4 class="m-1">The summer capital of Jammu and Kashmir, known for its gardens, waterfronts, and houseboats.</h4>      
+            </div>
         </div>
-        <div class="box2 box"><div class="box-content"> 
-            <div class="box-image" style="background-image: url('panaji.jpg');"></div>   
-            <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>         
-    </div></div>
-        <div class="box3 box"><div class="box-content">           
-            <div class="box-image" style="background-image: url('shimla.jpg');"></div> 
-            <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>           
-    </div>
-    </div>
+        <div class="box2 box">
+            <div class="box-content"> 
+                <div class="box-image" style="background-image: url('panaji.jpg');"></div>   
+                <h2 class="m-1">Panaji</h2>
+                <h4 class="m-1">The capital of Goa, famous for its beaches, vibrant nightlife, and Portuguese heritage.</h4>         
+            </div>
+        </div>
+        <div class="box3 box">
+            <div class="box-content">           
+                <div class="box-image" style="background-image: url('shimla.jpg');"></div> 
+                <h2 class="m-1">Shimla</h2>
+                <h4 class="m-1">A hill station in Himachal Pradesh, known for its colonial architecture, toy train, and Mall Road.</h4>           
+            </div>
+        </div>
         <div class="box1 box">
             <div class="box-content">
                 <div class="box-image" style="background-image: url('ahmedabad.jpg');"></div>
-                <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>      
-    </div>
+                <h2 class="m-1">Ahmedabad</h2>
+                <h4 class="m-1">The largest city in Gujarat, famous for its rich culture, textile industry, and Sabarmati Ashram.</h4>      
+            </div>
         </div>
-        <div class="box2 box"><div class="box-content"> 
-            <div class="box-image" style="background-image: url('mumbai-mah.jpg');"></div>   
-            <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>         
-    </div></div>
-        <div class="box3 box"><div class="box-content">           
-            <div class="box-image" style="background-image: url('amritsar.jpg');"></div> 
-            <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>           
-    </div>
-    </div>
+        <div class="box2 box">
+            <div class="box-content"> 
+                <div class="box-image" style="background-image: url('mumbai-mah.jpg');"></div>   
+                <h2 class="m-1">Mumbai</h2>
+                <h4 class="m-1">The financial capital of India, known for Bollywood, Gateway of India, and Marine Drive.</h4>         
+            </div>
+        </div>
+        <div class="box3 box">
+            <div class="box-content">           
+                <div class="box-image" style="background-image: url('amritsar.jpg');"></div> 
+                <h2 class="m-1">Amritsar</h2>
+                <h4 class="m-1">Home to the Golden Temple, the spiritual and cultural center of Sikhism, and the Wagah Border ceremony.</h4>           
+            </div>
+        </div>
         <div class="box1 box">
             <div class="box-content">
                 <div class="box-image" style="background-image: url('chennai.jpg');"></div>
-                <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>      
-    </div>
+                <h2 class="m-1">Chennai</h2>
+                <h4 class="m-1">The capital of Tamil Nadu, renowned for its Marina Beach, temples, and classical dance forms.</h4>      
+            </div>
         </div>
-        <div class="box2 box"><div class="box-content"> 
-            <div class="box-image" style="background-image: url('bangalore.jpg');"></div>   
-            <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>         
-    </div></div>
-        <div class="box3 box"><div class="box-content">           
-            <div class="box-image" style="background-image: url('hydarabaad.jpg');"></div> 
-            <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>           
-    </div>
-    </div>
+        <div class="box2 box">
+            <div class="box-content"> 
+                <div class="box-image" style="background-image: url('bangalore.jpg');"></div>   
+                <h2 class="m-1">Bangalore</h2>
+                <h4 class="m-1">The Silicon Valley of India, known for its IT industry, gardens, and vibrant nightlife.</h4>         
+            </div>
+        </div>
+        <!-- Add more boxes here as needed -->
     </div>
 </body>
 </html>

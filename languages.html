@@ -9,79 +9,107 @@
 </head>
 <body>
     <style>
-        body{
-            background-color: rgb(71, 205, 249);
+        body {
+            background-color: rgb(112, 112, 243);
+            margin: 0;
+            padding: 0;
         }
-        .box{
-                height: 20rem;
-                background-color: rgb(226, 245, 251);
+        .shop-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
         }
-        .title{
-            background-color: rgb(118, 215, 245);
+        .box {
+            width: calc(33.33% - 20px); /* Adjust as needed */
+            margin: 10px;
+            height: 25rem;
+            background-color: rgb(162, 162, 248);
+            display: flex;
+            flex-direction: column;
         }
-        .box-image{
-                height: 15rem;
-                width: 15rem;
-            margin-right: auto;
-            margin-left: auto;
+        .box-content {
+            flex: 1;
+            overflow: hidden;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+        .box-image {
+            height: 100%;
+            background-size: cover;
         }
     </style>
-    <div class="title"><div class="head flex justify-center">Widely Spoken Languages of India</div></div>
+
     <div class="shop-section m-1 p-1">
         <div class="box1 box">
             <div class="box-content">
                 <div class="box-image" style="background-image: url('kashmiri.jpg');"></div>
-                <h2 class="m-1">Language : Kashmiri</h2>
-                <h4 class="m-1">Generally spoken in Kashmir.</h4>      
-    </div>
+                <h2 class="m-1">Kashmiri</h2>
+                <h4 class="m-1">Kashmiri is an Indo-Aryan language primarily spoken in the Kashmir Valley region of Jammu and Kashmir.</h4>      
+            </div>
         </div>
-        <div class="box2 box"><div class="box-content"> 
-            <div class="box-image" style="background-image: url('konkani.jpg');"></div>   
-            <h2 class="m-1">Language : Konkani</h2>
-                <h4 class="m-1">Used by People at Goa.</h4>         
-    </div></div>
-        <div class="box3 box"><div class="box-content">           
-            <div class="box-image" style="background-image: url('hindi.jpg');"></div> 
-            <h2 class="m-1">Language : Hindi</h2>
-                <h4 class="m-1">Spoken in Himachal Pradesh</h4>           
-    </div>
-    </div>
+        <div class="box2 box">
+            <div class="box-content"> 
+                <div class="box-image" style="background-image: url('konkani.jpg');"></div>   
+                <h2 class="m-1">Konkani</h2>
+                <h4 class="m-1">Konkani is an Indo-Aryan language spoken predominantly in the coastal regions of Goa and parts of Karnataka and Maharashtra.</h4>         
+            </div>
+        </div>
+        <div class="box3 box">
+            <div class="box-content">           
+                <div class="box-image" style="background-image: url('hindi.jpg');"></div> 
+                <h2 class="m-1">Hindi</h2>
+                <h4 class="m-1">Hindi is one of the official languages of India and is spoken widely across the country, serving as a common language for communication.</h4>           
+            </div>
+        </div>
         <div class="box1 box">
-            <div class="box-content">
-                <div class="box-image" style="background-image: url('gujrati.jpg');"></div>
-                <h2 class="m-1">Language : Gujrati</h2>
-                <h4 class="m-1">State Language of Gujrat</h4>      
+    <div class="box-content">
+        <div class="box-image" style="background-image: url('gujrati.jpg');"></div>
+        <h2 class="m-1">Gujarati</h2>
+        <h4 class="m-1">Gujarati is an Indo-Aryan language native to the Indian state of Gujarat.</h4>      
     </div>
-        </div>
-        <div class="box2 box"><div class="box-content"> 
-            <div class="box-image" style="background-image: url('marathi.jpg');"></div>   
-            <h2 class="m-1">Language : Marathi</h2>
-                <h4 class="m-1">State Language of Maharashtra</h4>         
-    </div></div>
-        <div class="box3 box"><div class="box-content">           
-            <div class="box-image" style="background-image: url('punjabi.jpg');"></div> 
-            <h2 class="m-1">Language : Punjabi</h2>
-                <h4 class="m-1">Widely Spoken in Punjab</h4>           
+</div>
+
+        <div class="box2 box">
+    <div class="box-content"> 
+        <div class="box-image" style="background-image: url('marathi.jpg');"></div>   
+        <h2 class="m-1">Marathi</h2>
+        <h4 class="m-1">Marathi is an Indo-Aryan language spoken predominantly in the Indian state of Maharashtra and neighboring regions.</h4>         
     </div>
+</div>
+
+<div class="box3 box">
+    <div class="box-content">           
+        <div class="box-image" style="background-image: url('punjabi.jpg');"></div> 
+        <h2 class="m-1">Punjabi</h2>
+        <h4 class="m-1">Punjabi is an Indo-Aryan language spoken by the Punjabi people primarily in the Punjab region of India and Pakistan.</h4>           
     </div>
-        <div class="box1 box">
-            <div class="box-content">
-                <div class="box-image" style="background-image: url('tamil.jpg');"></div>
-                <h2 class="m-1">Language : Tamil</h2>
-                <h4 class="m-1">Tamilnadu's Regional Language</h4>      
+</div>
+
+<div class="box1 box">
+    <div class="box-content">
+        <div class="box-image" style="background-image: url('tamil.jpg');"></div>
+        <h2 class="m-1">Tamil</h2>
+        <h4 class="m-1">Tamil is a Dravidian language spoken predominantly in the Indian state of Tamil Nadu and parts of Sri Lanka, Singapore, and Malaysia.</h4>      
     </div>
-        </div>
-        <div class="box2 box"><div class="box-content"> 
-            <div class="box-image" style="background-image: url('kannada.jpg');"></div>   
-            <h2 class="m-1">Language : Kannada</h2>
-                <h4 class="m-1">Traditional Language of Kerala.</h4>         
-    </div></div>
-        <div class="box3 box"><div class="box-content">           
-            <div class="box-image" style="background-image: url('telugu.jpg');"></div> 
-            <h2 class="m-1">Language : Telugu</h2>
-                <h4 class="m-1">Popular Language of Telangana</h4>           
+</div>
+        <div class="box2 box">
+    <div class="box-content">
+        <div class="box-image" style="background-image: url('kannada.jpg');"></div>
+        <h2 class="m-1">Kannada</h2>
+        <h4 class="m-1">Kannada is a Dravidian language spoken predominantly by the people of Karnataka in southwestern India.</h4>         
     </div>
+</div>
+        <div class="box3 box">
+    <div class="box-content">
+        <div class="box-image" style="background-image: url('telugu.jpg');"></div>
+        <h2 class="m-1">Telugu</h2>
+        <h4 class="m-1">Telugu is a Dravidian language spoken primarily in the Indian states of Andhra Pradesh and Telangana.</h4>           
     </div>
+</div>
+
+
+
     </div>
 </body>
 </html>

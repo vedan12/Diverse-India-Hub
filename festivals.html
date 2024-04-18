@@ -6,82 +6,110 @@
     <title>Festivals</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="utility.css">
-</head>
-<body>
     <style>
-        body{
+        body {
             background-color: rgb(91, 244, 91);
+            margin: 0;
+            padding: 0;
         }
-        .box{
-                height: 25rem;
+
+        .shop-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .box {
+            height: 25rem;
             background-color: rgb(167, 238, 167);
+            margin: 10px;
+            flex: 1 0 30%; /* Adjust as needed */
         }
-        .title{
-            background-color: rgb(58, 244, 58);
+
+        .box-content {
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
         }
-        .box-image{
-                height: 15rem;
-                width: 15rem;
-            margin-right: auto;
-            margin-left: auto;
+
+        .box-image {
+            height: 100%;
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
         }
     </style>
-    <div class="title"><div class="head flex justify-center">Regional Festivals of India</div></div>
+</head>
+<body>
     <div class="shop-section m-1 p-1">
         <div class="box1 box">
             <div class="box-content">
                 <div class="box-image" style="background-image: url('lohri.jpg');"></div>
-                <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>      
-    </div>
+                <h2 class="m-1">Lohri</h2>
+                <h4 class="m-1">(Punjab): Lohri is a Punjabi festival celebrated primarily by Sikhs and Hindus, marking the end of winter and the onset of longer days.</h4>
+            </div>
         </div>
-        <div class="box2 box"><div class="box-content"> 
-            <div class="box-image" style="background-image: url('goa-festval.jpg');"></div>   
-            <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>         
-    </div></div>
-        <div class="box3 box"><div class="box-content">           
-            <div class="box-image" style="background-image: url('hp-vijayyadashami.jpg');"></div> 
-            <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>           
-    </div>
-    </div>
+        <div class="box2 box">
+            <div class="box-content"> 
+                <div class="box-image" style="background-image: url('goa-festval.jpg');"></div>   
+                <h2 class="m-1">Goa Festival</h2>
+                <h4 class="m-1">(Goa):Goa hosts various festivals throughout the year, including the popular Goa Carnival known for its colorful parades and lively celebrations.</h4>     
+            </div>
+        </div>
+        <div class="box3 box">
+            <div class="box-content">           
+                <div class="box-image" style="background-image: url('hp-vijayyadashami.jpg');"></div> 
+                <h2 class="m-1">Vijayadashami</h2>
+                <h4 class="m-1">(Himachal Pradesh):Vijayadashami, also known as Dussehra, symbolizes the victory of good over evil and is celebrated with grand processions and theatrical performances.</h4>           
+            </div>
+        </div>
         <div class="box1 box">
             <div class="box-content">
                 <div class="box-image" style="background-image: url('navratri.jpg');"></div>
-                <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>      
-    </div>
+                <h2 class="m-1">Navratri</h2>
+                <h4 class="m-1">(Gujarat):- Navratri is a nine-night Hindu festival dedicated to the worship of the goddess Durga, featuring vibrant dance performances like Garba and Dandiya.</h4>      
+            </div>
         </div>
-        <div class="box2 box"><div class="box-content"> 
-            <div class="box-image" style="background-image: url('ganpati.jpg');"></div>   
-            <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>         
-    </div></div>
-        <div class="box3 box"><div class="box-content">           
-            <div class="box-image" style="background-image: url('baisakhi.jpg');"></div> 
-            <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>           
-    </div>
-    </div>
+        <div class="box2 box">
+            <div class="box-content"> 
+                <div class="box-image" style="background-image: url('ganpati.jpg');"></div>   
+                <h2 class="m-1">Ganesh Chaturthi</h2>
+                <h4 class="m-1">(Maharashtra): - Ganesh Chaturthi honors the elephant-headed deity Ganesha and is celebrated with great fervor, including the installation of elaborate Ganesha idols and communal feasting.</h4>         
+            </div>
+        </div>
+        <div class="box3 box">
+            <div class="box-content">           
+                <div class="box-image" style="background-image: url('baisakhi.jpg');"></div> 
+                <h2 class="m-1">Baisakhi</h2>
+                <h4 class="m-1">(Punjab):- Baisakhi marks the Sikh New Year and commemorates the formation of the Khalsa Panth by Guru Gobind Singh Ji, celebrated with processions, music, and feasting.</h4>           
+            </div>
+        </div>
         <div class="box1 box">
             <div class="box-content">
                 <div class="box-image" style="background-image: url('pongal.jpg');"></div>
-                <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>      
-    </div>
+                <h2 class="m-1">Pongal</h2>
+                <h4 class="m-1">(Tamil Nadu):- Pongal is a Tamil harvest festival celebrated with traditional rituals, including the boiling of milk and rice to honor the sun god and express gratitude for a bountiful harvest.</h4>      
+            </div>
         </div>
-        <div class="box2 box"><div class="box-content"> 
-            <div class="box-image" style="background-image: url('dasara-karnataka.jpg');"></div>   
-            <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>         
-    </div></div>
-        <div class="box3 box"><div class="box-content">           
-            <div class="box-image" style="background-image: url('bathukamma.jpg');"></div> 
-            <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>           
-    </div>
-    </div>
+        <div class="box2 box">
+            <div class="box-content"> 
+                <div class="box-image" style="background-image: url('dasara-karnataka.jpg');"></div>   
+                <h2 class="m-1">Dasara</h2>
+                <h4 class="m-1">(Karnataka):- Dasara, also known as Dussehra, is a Hindu festival celebrated across India, but in Karnataka, it includes the renowned Mysuru Dasara procession and festivities.</h4>         
+            </div>
+        </div>
+        <div class="box3 box">
+            <div class="box-content">           
+                <div class="box-image" style="background-image: url('bathukamma.jpg');"></div> 
+                <h2 class="m-1">Bathukamma</h2>
+                <h4 class="m-1">(Telangana):Bathukamma is a floral festival celebrated predominantly by the women of Telangana, featuring the arrangement of colorful flowers in beautiful stacks as offerings to the goddess Bathukamma.</h4>           
+            </div>
+        </div>
+        <!-- Add more boxes here as needed -->
     </div>
 </body>
 </html>
