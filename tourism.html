@@ -9,76 +9,103 @@
 </head>
 <body>
     <style>
-        body{
-            background-color: rgb(128, 44, 188);
+        body {
+            background-color: rgb(112, 112, 243);
+            margin: 0;
+            padding: 0;
         }
-        .box{
-                height: 25rem;
-            background-color: rgb(167, 122, 200);
+        .shop-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
         }
-        .box-image{
-                height: 15rem;
-                width: 15rem;
-            margin-right: auto;
-            margin-left: auto;
+        .box {
+            width: calc(33.33% - 20px); /* Adjust as needed */
+            margin: 10px;
+            height: 25rem;
+            background-color: rgb(162, 162, 248);
+            display: flex;
+            flex-direction: column;
+        }
+        .box-content {
+            flex: 1;
+            overflow: hidden;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+        .box-image {
+            height: 100%;
+            background-size: cover;
         }
     </style>
-    <div class="title"><div class="head flex justify-center">Most Famous Food Items</div></div>
+
+    <div class="title"><div class="head flex justify-center">Most Famous Tourist Destinations</div></div>
     <div class="shop-section m-1 p-1">
         <div class="box1 box">
             <div class="box-content">
                 <div class="box-image" style="background-image: url('kashmir\ valley.jpg');"></div>
-                <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>      
-    </div>
+                <h2 class="m-1">Kashmir Valley</h2>
+                <h4 class="m-1">The breathtaking beauty of the Kashmir Valley offers serene landscapes and captivating experiences.</h4>      
+            </div>
         </div>
-        <div class="box2 box"><div class="box-content"> 
-            <div class="box-image" style="background-image: url('beach-goa.jpg');"></div>   
-            <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>         
-    </div></div>
-        <div class="box3 box"><div class="box-content">           
-            <div class="box-image" style="background-image: url('manali-hp.jpg');"></div> 
-            <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>           
-    </div>
-    </div>
-        <div class="box1 box">
+        <div class="box2 box">
+            <div class="box-content"> 
+                <div class="box-image" style="background-image: url('beach-goa.jpg');"></div>   
+                <h2 class="m-1">Goa Beaches</h2>
+                <h4 class="m-1">Famous for its stunning beaches, Goa is a popular tourist destination offering sun, sand, and vibrant nightlife.</h4>         
+            </div>
+        </div>
+        <div class="box3 box">
+            <div class="box-content">           
+                <div class="box-image" style="background-image: url('manali-hp.jpg');"></div> 
+                <h2 class="m-1">Manali</h2>
+                <h4 class="m-1">Nestled in the Himalayas, Manali is renowned for its scenic beauty, adventure sports, and spiritual retreats.</h4>           
+            </div>
+        </div>
+         <div class="box1 box">
             <div class="box-content">
                 <div class="box-image" style="background-image: url('somnath-temple.jpg');"></div>
-                <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>      
-    </div>
+                <h2 class="m-1">Somnath Temple</h2>
+                <h4 class="m-1">One of the twelve Jyotirlinga shrines of Lord Shiva, Somnath Temple is an architectural marvel and a revered pilgrimage site.</h4>      
+            </div>
         </div>
-        <div class="box2 box"><div class="box-content"> 
-            <div class="box-image" style="background-image: url('ajanta.jpg');"></div>   
-            <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>         
-    </div></div>
-        <div class="box3 box"><div class="box-content">           
-            <div class="box-image" style="background-image: url('golden-Temple.jpg');"></div> 
-            <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>           
-    </div>
-    </div>
+        <div class="box2 box">
+            <div class="box-content"> 
+                <div class="box-image" style="background-image: url('ajanta.jpg');"></div>   
+                <h2 class="m-1">Ajanta Caves</h2>
+                <h4 class="m-1">Ajanta Caves, a UNESCO World Heritage Site, showcase ancient Buddhist cave monuments renowned for their exquisite rock-cut sculptures and paintings.</h4>         
+            </div>
+        </div>
+        <div class="box3 box">
+            <div class="box-content">           
+                <div class="box-image" style="background-image: url('golden-Temple.jpg');"></div> 
+                <h2 class="m-1">Golden Temple</h2>
+                <h4 class="m-1">The Harmandir Sahib, popularly known as the Golden Temple, is the holiest gurdwara and a symbol of Sikhism's spiritual and historical tradition.</h4>           
+            </div>
+        </div>
         <div class="box1 box">
             <div class="box-content">
                 <div class="box-image" style="background-image: url('brihadeshwar-tamil.jpg');"></div>
-                <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>      
-    </div>
+                <h2 class="m-1">Brihadeeswarar Temple</h2>
+                <h4 class="m-1">Built by the Chola dynasty, Brihadeeswarar Temple in Tamil Nadu is an architectural marvel and a UNESCO World Heritage Site.</h4>      
+            </div>
         </div>
-        <div class="box2 box"><div class="box-content"> 
-            <div class="box-image" style="background-image: url('humpi-karnataka.jpg');"></div>   
-            <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>         
-    </div></div>
-        <div class="box3 box"><div class="box-content">           
-            <div class="box-image" style="background-image: url('charminar.jpg');"></div> 
-            <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>           
-    </div>
-    </div>
+        <div class="box2 box">
+            <div class="box-content"> 
+                <div class="box-image" style="background-image: url('humpi-karnataka.jpg');"></div>   
+                <h2 class="m-1">Hampi</h2>
+                <h4 class="m-1">Hampi, a UNESCO World Heritage Site, is renowned for its rich history, ancient ruins, and stunning architectural landmarks.</h4>         
+            </div>
+        </div>
+        <div class="box3 box">
+            <div class="box-content">           
+                <div class="box-image" style="background-image: url('charminar.jpg');"></div> 
+                <h2 class="m-1">Charminar</h2>
+                <h4 class="m-1">A historic monument and a symbol of Hyderabad, Charminar is known for its stunning architecture and vibrant bazaars.</h4>           
+            </div>
+        </div>
+        
     </div>
 </body>
 </html>

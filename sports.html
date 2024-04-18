@@ -9,79 +9,161 @@
 </head>
 <body>
     <style>
-        body{
-            background-color: rgb(148, 160, 20);
+        body {
+            background-color: rgb(112, 112, 243);
+            margin: 0;
+            padding: 0;
         }
-        .box{
-                height: 25rem;
-                background-color: rgb(225, 232, 155);
+        .shop-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
         }
-        .title{
-            background-color: rgb(221, 232, 94);
+        .box {
+            width: calc(33.33% - 20px); /* Adjust as needed */
+            margin: 10px;
+            height: 25rem;
+            background-color: rgb(162, 162, 248);
+            display: flex;
+            flex-direction: column;
         }
-        .box-image{
-                height: 15rem;
-                width: 15rem;
-            margin-right: auto;
-            margin-left: auto;
+        .box-content {
+            flex: 1;
+            overflow: hidden;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
         }
+        .box-image {
+            height: 100%;
+            background-size: cover;
+        }
+        .box-image:hover {
+            cursor: pointer;
+        }
+   
+.box-image {
+    width: 100%; /* Set width to fill the container */
+    height: 100%; /* Set height to fill the container */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
     </style>
-    <div class="title"><div class="head flex justify-center">Popular Sports of India</div></div>
+
+    <div class="title">
+        <div class="head flex justify-center">Popular Sports of India</div>
+    </div>
     <div class="shop-section m-1 p-1">
-        <div class="box1 box">
-            <div class="box-content">
-                <div class="box-image" style="background-image: url('polo.jpg');"></div>
-                <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>      
+        <!-- Jammu & Kashmir: Polo -->
+<div class="box1 box">
+    <div class="box-content">
+        <div class="box-image" style="background-image: url('polo.jpg');"></div>
+        <h2 class="m-1">Polo</h2>
+        <h4 class="m-1">(Jammu & Kashmir Famous)</h4>
+        <h3 class="m-1">Description</h3>
+        <h4 class="m-1">Polo, a sport associated with royalty, is popular in Jammu & Kashmir and often played amidst the picturesque landscapes of the region.</h4>      
     </div>
-        </div>
-        <div class="box2 box"><div class="box-content"> 
-            <div class="box-image" style="background-image: url('football.jpg');"></div>   
-            <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>         
-    </div></div>
-        <div class="box3 box"><div class="box-content">           
-            <div class="box-image" style="background-image: url('kho-kho.jpg');"></div> 
-            <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>           
+</div>
+<!-- Gujarat: Dandiya -->
+<div class="box1 box">
+    <div class="box-content">
+        <div class="box-image" style="background-image: url('dandiya.jpg');"></div>
+        <h2 class="m-1">Dandiya</h2>
+        <h4 class="m-1">(Gujarat Famous)</h4>
+        <h3 class="m-1">Description</h3>
+        <h4 class="m-1">A traditional dance form in Gujarat often accompanied by energetic stick-fighting.</h4>      
     </div>
+</div>
+
+<!-- Haryana: Kushti -->
+<div class="box2 box">
+    <div class="box-content"> 
+        <div class="box-image" style="background-image: url('kushti.jpg');"></div>   
+        <h2 class="m-1">Kushti</h2>
+        <h4 class="m-1">(Haryana Famous)</h4>
+        <h3 class="m-1">Description</h3>
+        <h4 class="m-1">Traditional Indian wrestling popular in Haryana, showcasing strength and agility.</h4>         
     </div>
-        <div class="box1 box">
-            <div class="box-content">
-                <div class="box-image" style="background-image: url('dandiya.jpg');"></div>
-                <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>      
+</div>
+
+<!-- Punjab: Kabaddi -->
+<div class="box3 box">
+    <div class="box-content">           
+        <div class="box-image" style="background-image: url('kabaddi.jpg');"></div> 
+        <h2 class="m-1">Kabaddi</h2>
+        <h4 class="m-1">(Punjab Famous)</h4>
+        <h3 class="m-1">Description</h3>
+        <h4 class="m-1">A contact team sport originating from Punjab, involving tagging opponents and escaping their grasp.</h4>           
     </div>
-        </div>
-        <div class="box2 box"><div class="box-content"> 
-            <div class="box-image" style="background-image: url('kushti.jpg');"></div>   
-            <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>         
-    </div></div>
-        <div class="box3 box"><div class="box-content">           
-            <div class="box-image" style="background-image: url('kabaddi.jpg');"></div> 
-            <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>           
+</div>
+
+<!-- Tamil Nadu: Silambam -->
+<div class="box1 box">
+    <div class="box-content">
+        <div class="box-image" style="background-image: url('silambam.jpg');"></div>
+        <h2 class="m-1">Silambam</h2>
+        <h4 class="m-1">(Tamil Nadu Famous)</h4>
+        <h3 class="m-1">Description</h3>
+        <h4 class="m-1">A traditional martial art from Tamil Nadu that involves stick fighting techniques.</h4>      
     </div>
+</div>
+
+<!-- Karnataka: Kambala -->
+<div class="box2 box">
+    <div class="box-content"> 
+        <div class="box-image" style="background-image: url('kambala.jpg');"></div>   
+        <h2 class="m-1">Kambala</h2>
+        <h4 class="m-1">(Karnataka Famous)</h4>
+        <h3 class="m-1">Description</h3>
+        <h4 class="m-1">An annual buffalo race held in Karnataka, demonstrating rural sport and tradition.</h4>         
     </div>
-        <div class="box1 box">
-            <div class="box-content">
-                <div class="box-image" style="background-image: url('silambam.jpg');"></div>
-                <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>      
+</div>
+
+<!-- Uttar Pradesh: Gulli Danda -->
+<div class="box3 box">
+    <div class="box-content">           
+        <div class="box-image" style="background-image: url('gulli danda.jpg');"></div> 
+        <h2 class="m-1">Gulli Danda</h2>
+        <h4 class="m-1">(Uttar Pradesh Famous)</h4>
+        <h3 class="m-1">Description</h3>
+        <h4 class="m-1">A traditional Indian game often played in Uttar Pradesh, involving hitting a small wooden stick with a larger one.</h4>           
     </div>
-        </div>
-        <div class="box2 box"><div class="box-content"> 
-            <div class="box-image" style="background-image: url('kambala.jpg');"></div>   
-            <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>         
-    </div></div>
-        <div class="box3 box"><div class="box-content">           
-            <div class="box-image" style="background-image: url('gulli\ danda.jpg');"></div> 
-            <h2 class="m-1"></h2>
-                <h4 class="m-1"></h4>           
+</div>
+<!-- Maharashtra: Cricket -->
+<div class="box1 box">
+    <div class="box-content">
+        <div class="box-image" style="background-image: url('cricket.jpg');"></div>
+        <h2 class="m-1">Cricket</h2>
+        <h4 class="m-1">(Maharashtra Popular)</h4>
+        <h3 class="m-1">Description</h3>
+        <h4 class="m-1">Cricket is immensely popular in Maharashtra, with numerous cricket clubs, stadiums, and passionate fans supporting both domestic and international cricket events.</h4>      
     </div>
+</div>
+        <!-- Goa: Football -->
+<div class="box2 box">
+    <div class="box-content"> 
+        <div class="box-image" style="background-image: url('football.jpg');"></div>   
+        <h2 class="m-1">Football</h2>
+        <h4 class="m-1">(Goa Popular)</h4>
+        <h3 class="m-1">Description</h3>
+        <h4 class="m-1">Football is the most popular sport in Goa, with a rich history and a passionate fanbase. The state hosts various football tournaments and has produced several talented players who have represented both national and international teams.</h4>         
     </div>
+</div>
+
+<!-- India: Kho Kho -->
+<div class="box3 box">
+    <div class="box-content">           
+        <div class="box-image" style="background-image: url('kho-kho.jpg');"></div> 
+        <h2 class="m-1">Kho Kho</h2>
+        <h4 class="m-1">(India Traditional)</h4>
+        <h3 class="m-1">Description</h3>
+        <h4 class="m-1">Kho Kho is a traditional Indian sport enjoyed by people of all ages. It is a tag game where players chase each other, requiring speed, agility, and strategic thinking. Kho Kho is played across the country, promoting fitness and camaraderie.</h4>           
+    </div>
+</div>
+
+
     </div>
 </body>
 </html>

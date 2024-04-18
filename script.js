@@ -29,7 +29,7 @@ function goToStates() {
     window.location.href = 'states.html';
 }
 function goToSongs() {
-    window.location.href = '';
+    window.location.href = 'song.html';
 }
 function goToReligions() {
     window.location.href = 'religions.html';

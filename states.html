@@ -9,73 +9,90 @@
 </head>
 <body>
     <style>
-        body{
-            background-color: aquamarine;
+        body {
+            background-color: rgb(112, 112, 243);
+            margin: 0;
+            padding: 0;
         }
-        .box{
-                height: 25rem;
-                background-color: rgb(194, 243, 227);
+        .shop-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
         }
-        .box-image{
-                height: 22rem;
-                width: 18rem;
-            margin-right: auto;
-            margin-left: auto;
+        .box {
+            width: calc(33.33% - 20px); /* Adjust as needed */
+            margin: 10px;
+            height: 25rem;
+            background-color: rgb(162, 162, 248);
+            display: flex;
+            flex-direction: column;
+        }
+        .box-content {
+            flex: 1;
+            overflow: hidden;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+        .box-image {
+            height: 100%;
+            background-size: cover;
         }
     </style>
-    <div class="title"><div class="head flex justify-center">Most Famous Food Items</div></div>
+
+    <div class="title"><div class="head flex justify-center">States in India</div></div>
     <div class="shop-section m-1 p-1">
         <div class="box1 box">
             <div class="box-content">
                 <div class="box-image" style="background-image: url('jammu_map.png');"></div>
-                <h2 class="m-1"></h2>
+                <h2 class="m-1">Jammu Kashmir</h2>
                 <h4 class="m-1"></h4>      
     </div>
         </div>
         <div class="box2 box"><div class="box-content"> 
             <div class="box-image" style="background-image: url('goa_map.png');"></div>   
-            <h2 class="m-1"></h2>
+            <h2 class="m-1">Goa</h2>
                 <h4 class="m-1"></h4>         
     </div></div>
         <div class="box3 box"><div class="box-content">           
             <div class="box-image" style="background-image: url('hp_map.png');"></div> 
-            <h2 class="m-1"></h2>
+            <h2 class="m-1">Himachal Pradesh</h2>
                 <h4 class="m-1"></h4>           
     </div>
     </div>
         <div class="box1 box">
             <div class="box-content">
                 <div class="box-image" style="background-image: url('gujrat_map.png');"></div>
-                <h2 class="m-1"></h2>
+                <h2 class="m-1">Gujrat</h2>
                 <h4 class="m-1"></h4>      
     </div>
         </div>
         <div class="box2 box"><div class="box-content"> 
             <div class="box-image" style="background-image: url('mah_map.png');"></div>   
-            <h2 class="m-1"></h2>
+            <h2 class="m-1">Maharashtra</h2>
                 <h4 class="m-1"></h4>         
     </div></div>
         <div class="box3 box"><div class="box-content">           
             <div class="box-image" style="background-image: url('punjab_map.png');"></div> 
-            <h2 class="m-1"></h2>
+            <h2 class="m-1">Punjab</h2>
                 <h4 class="m-1"></h4>           
     </div>
     </div>
         <div class="box1 box">
             <div class="box-content">
                 <div class="box-image" style="background-image: url('tamilnadu_map.jpg');"></div>
-                <h2 class="m-1"></h2>
+                <h2 class="m-1">Tamilnadu</h2>
                 <h4 class="m-1"></h4>      
     </div>
         </div>
         <div class="box2 box"><div class="box-content"> 
             <div class="box-image" style="background-image: url('karnataka_map.png');"></div>   
-            <h2 class="m-1"></h2>
+            <h2 class="m-1">Karnataka</h2>
                 <h4 class="m-1"></h4>         
     </div></div>
         <div class="box3 box"><div class="box-content">           
             <div class="box-image" style="background-image: url('telangana_map.jpg');"></div> 
-            <h2 class="m-1"></h2>
+            <h2 class="m-1">Telangana</h2>
                 <h4 class="m-1"></h4>           
     </div>
     </div>
